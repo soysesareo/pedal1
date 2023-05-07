@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Componente Navegacion */
+.nav-pedalmania {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.barra-navegacion {
+  text-decoration: none;
+  padding: 1% 2% 1% 2%;
+}
+
+.barra-navegacion,
+#responsive-navbar-nav,
+.barra-navegacion-enlaces {
+  text-decoration: none;
+}
+
+.nav-stompbox {
+  height: 50px;
+}
+
+.nav-cart,
+.nav-user {
+  height: 29px;
+}
+
+/* Fin Componente Navegacion */
+
+/* Componente Buscador */
+.buscador {
+  background-color: #212529;
+  /* background-color: #E08149; */
+  /* background-color: #BD2F2A; */
+  padding: 3px 10px 15px 10px;
+  /* margin: 7px 0 7px 0; */
+  /* position: sticky;
+  top: 10px;
+  z-index: 100; */
+}
+
+.buscador-input {
+  max-width: 45%;
+  /* padding: 0 25px 0 25px;
+  margin: 7px 0 7px 0; */
+}
+
+/* Fin Componente Buscador */
+
+/* Componente Home */
+.grilla {
+  display: grid;
+  justify-items: center;
+  /* grid-auto-flow: row;
+  justify-content: center;
+  align-content: center; */
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 35px;
+  background-image: url("src/assets/img/background-pixabay-618226_960_720.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.tarjeta-precio {
+  text-align: center;
+}
+
+.tarjeta-titulo {
+  padding-top: 1%;
+}
+
+/* Fin Componente Home */
+
+
+/* Componente Clientes */
+.cliente-tarjeta {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  gap: 10px;
+  padding: 35px;
+}
+
+.cliente-detalles {
+  display: flex;
+  gap: 2%
+}
+
+/* Fin Componente Clientes */
+
+
+/* Componente Footer */
+.footer {
+  background-color: aquamarine;
+  padding: 1% 0% 1% 0%;
+}
+
+.footer-texto {
+  font-size: smaller;
+  color: rgb(121, 62, 2);
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-sesareo {
+  text-decoration: none;
+  color: rgb(121, 62, 2);
+  margin-left: 0.38%;
+}
+
+/* Fin Componente Footer */
+
+
+/* Componente Not Found */
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 25px;
+}
+
+/* .not-found {
+  background-image: url("src/assets/img/error-404-adobe-3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+} */
+
+.not-found-texto {
+  color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 25px;
+}
+
+/* Fin Not Found */
+
+/* barra navegación */
+/* .barra-navegacion {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+} */
+
+/* .barra-navegacion .barra-navegacion-enlaces {
+  text-decoration: none;
+} */
+
+/* tarjetas */
+.tarjeta-titulo {
+  text-align: center;
+}
+
+.boton-detalles {
+  margin-right: 10px;
+}
+
+/* header */
+.header {
+  text-align: center;
+}
+
+/* Componente Newsletter */
+.newsletter {
+  background-color: rgb(222, 222, 172);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 25px;
+}
+
+.container {
+  max-width: 100%;
+}
+
+/* Fin Componente Newsletter */
+
+
+/* Componente Contacto */
+.contacto-formulario {
+  padding: 0 15% 0 15%;
+  background-color: #97A35C;
+  /* background-image: url("src/assets/img/background-pixabay-618226_960_720.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; */
+}
+
+/* Fin Componente Contacto */
+
+
+/* Componente Clientes */
+.clientes {
+  /* background-color: #97A35C; */
+  /* background-color: #7B985A; */
+  background-color: #7B985A;
+}
+
+.tarjetas-clientes {
+  background-color: #FEB95F;
+}
+
+
+
+/* .carouselExample {
+height: 100px;
+} */
+
+/* Fin Componente Clientes  */
+
+
+
+
+/* Componente Section (footer) */
+.footer-section {
+  background-color: bisque;
+  color: brown;
+  padding: 30px 25px;
+  display: flex;
+  justify-content: space-around;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-direction: column; */
+}
+
+.footer-section-titulo-enlaces {
+  color: black;
+}
+
+.footer-copyright {
+  height: 13px;
+  margin-right: 1px;
+}
+
+/* Fin Componente Section(footer) */
+
+/* Diseño Responsivo */
+/* @media screen and (max-width: 1400px){
+  .grilla {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 35px;
+  }
+} */
+
+@media screen and (max-width: 1200px) {
+  .grilla {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 35px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+
+  .grilla {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 35px;
+  }
+
+  .cliente-tarjeta {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 10px;
+    padding: 35px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .grilla {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 35px;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 35px;
+  }
+
+  .cliente-tarjeta {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 10px;
+    padding: 35px;
+  }
+
+  .buscador-input {
+    max-width: 100%;
+    padding: 0 2px 0 0;
+    /* padding: 0 25px 0 25px;
+    margin: 7px 0 7px 0; */
+  }
+
+  .nav-cart,
+  .nav-user {
+    height: 29px;
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .grilla {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    padding: 35px;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    padding: 35px;
+  }
+
+  .cliente-tarjeta {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 10px;
+    padding: 35px;
+  }
+
+  .contacto-formulario {
+    padding: 0 5% 0 5%;
+  }
+
+  .buscador-input {
+    max-width: 100%;
+    padding: 0 2px 0 0;
+    /* padding: 0 25px 0 25px;
+    margin: 7px 0 7px 0; */
+  }
+
+  .nav-cart,
+  .nav-user {
+    height: 29px;
+    display: none;
+  }
+
+  /*  .nav-cart {
+  display: none
+  } */
+}
+
+/* Fin Diseño Responsivo */
