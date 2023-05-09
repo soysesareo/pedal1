@@ -109,7 +109,7 @@ const Newsletter = () => {
           <div>
             <SignupForm />
           </div>
-          <p>Además participarás por un ticket de descuento del 10% para tu próxima compraaaaaaa</p>
+          <p>Además participarás por un ticket de descuento del 10% para tu próxima compra</p>
         </Form>
 
       {/* </Container> */}
