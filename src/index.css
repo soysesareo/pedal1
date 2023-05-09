@@ -62,7 +62,7 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   padding: 35px;
-  background-image: url("/home/sesareo/FrontEnd/G5/proyecto-final/pedal1/public/background-pixabay-618226_960_720.png");
+  background-image: url("/background-pixabay-618226_960_720.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
