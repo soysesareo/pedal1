@@ -1,7 +1,7 @@
 [
   {
     "id": "01",
-    "img": "boss-ds-1-40th-anniversary_300-1.jpg",
+    "img": "assets/img/boss-ds-1-40th-anniversary_300-1.jpg",
     "name": "DS-1",
     "brand": "Boss",
     "type": "Distortion",
@@ -11,7 +11,7 @@
   },
   {
     "id": "02",
-    "img": "src/assets/img/boss-rv-5_300-2.jpg",
+    "img": "assets/img/boss-rv-5_300-2.jpg",
     "name": "RV-5",
     "brand": "Boss",
     "type": "Digital Reverb",
@@ -20,7 +20,7 @@
   },
   {
     "id": "03",
-    "img": "src/assets/img/teisco-boost-pedal_300-3.jpg",
+    "img": "assets/img/teisco-boost-pedal_300-3.jpg",
     "name": "Boost",
     "brand": "Teisco",
     "type": "Booster",
@@ -29,7 +29,7 @@
   },
   {
     "id": "04",
-    "img": "src/assets/img/supro-chorus-1643960584693_300-4.jpg",
+    "img": "assets/img/supro-chorus-1643960584693_300-4.jpg",
     "name": "Chorus",
     "brand": "Supro",
     "type": "Analog Chorus",
@@ -38,7 +38,7 @@
   },
   {
     "id": "05",
-    "img": "src/assets/img/teisco-fuzz-pedal_300-5.jpg",
+    "img": "assets/img/teisco-fuzz-pedal_300-5.jpg",
     "name": "Fuzz",
     "brand": "Teisco",
     "type": "Fuzz",
@@ -47,7 +47,7 @@
   },
 {
     "id": "06",
-    "img": "src/assets/img/wampler-ego-compressor-1652711127151_300-6.jpg",
+    "img": "assets/img/wampler-ego-compressor-1652711127151_300-6.jpg",
     "name": "Ego",
     "brand": "Wampler",
     "type": "Compresor",
@@ -56,7 +56,7 @@
   },
 {
     "id": "07",
-    "img": "src/assets/img/mooer-echoverb-front-300x300-7.jpg",
+    "img": "assets/img/mooer-echoverb-front-300x300-7.jpg",
     "name": "EchoVerb",
     "brand": "Mooer",
     "type": "Delay",
@@ -65,7 +65,7 @@
   },
 {
     "id": "08",
-    "img": "src/assets/img/wampler-faux-tape-echo-v23-1_300-8.jpg",
+    "img": "assets/img/wampler-faux-tape-echo-v23-1_300-8.jpg",
     "name": "Faux",
     "brand": "Wampler",
     "type": "Tape Echo",
@@ -74,7 +74,7 @@
   },
 {
     "id": "09",
-    "img": "src/assets/img/wampler-equator-co45h92A_300-9.jpg",
+    "img": "assets/img/wampler-equator-co45h92A_300-9.jpg",
     "name": "Equator",
     "brand": "Wampler",
     "type": "Equalizador",
@@ -83,7 +83,7 @@
   },
 {
     "id": "10",
-    "img": "src/assets/img/mooer-afinador-de-pinza-ct-01-10.jpg",
+    "img": "assets/img/mooer-afinador-de-pinza-ct-01-10.jpg",
     "name": "Afinador",
     "brand": "Mooer",
     "type": "Afinador",
@@ -92,7 +92,7 @@
   },
 {
     "id": "11",
-    "img": "src/assets/img/mxr-timmy-overdrive-300x300-11.jpg",
+    "img": "assets/img/mxr-timmy-overdrive-300x300-11.jpg",
     "name": "Timmy",
     "brand": "MXR",
     "type": "Overdrive",
@@ -102,7 +102,7 @@
   },
 {
     "id": "12",
-    "img": "src/assets/img/empress-perea-eq-300x300-12.jpg",
+    "img": "assets/img/empress-perea-eq-300x300-12.jpg",
     "name": "Paraeq",
     "brand": "Empress",
     "type": "EQ",
