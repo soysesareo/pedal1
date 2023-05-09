@@ -1,7 +1,7 @@
 [
   {
     "id": "01",
-    "img": "src/assets/img/boss-ds-1-40th-anniversary_300-1.jpg",
+    "img": "public/boss-ds-1-40th-anniversary_300-1.jpg",
     "name": "DS-1",
     "brand": "Boss",
     "type": "Distortion",
