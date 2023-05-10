@@ -15,7 +15,7 @@ const Navegacion = () => {
     <>
       <Navbar className="barra-navegacion" sticky="top" collapseOnSelect expand="md" bg="dark" variant="dark">
 
-        <Navbar.Brand /* href="#home" */><Link className="nav-pedalmania" to="/"><Image className="nav-stompbox" src="/stompbox3.png" fluid rounded /><Image className="nav-pedalmania" src="/pedal8.png" fluid rounded /></Link></Navbar.Brand>
+        <Navbar.Brand /* href="#home" */><Link className="nav-pedalmania" to="/"><Image className="nav-stompbox" src="/stompbox3.png" fluid rounded /><Image className="nav-pedalmania" src="/pedal9.png" fluid rounded /></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
