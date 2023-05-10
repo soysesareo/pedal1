@@ -10,6 +10,7 @@ import Footer from './components/Footer'
 import Section from './pages/Section'
 import Contacto from './pages/Contacto'
 import Login from './pages/Login'
+import Registro from './pages/Registro'
 import Buscador from './pages/Buscador'
 import './App.css'
 
@@ -28,6 +29,7 @@ function App() {
         <Route path='/compras' element={<Compras />} />
         <Route path='/detalles' element={<Detalles />} />
         <Route path='/login' element={<Login />} />
+        <Route path='/registro' element={<Registro />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
       <Section />

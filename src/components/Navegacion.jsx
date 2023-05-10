@@ -49,7 +49,10 @@ const Navegacion = () => {
               <Nav.Link >Compras<Image className="nav-cart" src="/cart-4-svgrepo-com.svg" fluid rounded /></Nav.Link>
             </LinkContainer>
             <LinkContainer to="/login">
-              <Nav.Link >Mi Cuenta<Image className="nav-user" src="/user-1-svgrepo-com.svg" fluid rounded /></Nav.Link>
+              <Nav.Link >Mi Perfil<Image className="nav-user" src="/user-1-svgrepo-com.svg" fluid rounded /></Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/registro">
+              <Nav.Link >Registro<Image className="nav-user" src="/user-1-svgrepo-com.svg" fluid rounded /></Nav.Link>
               </LinkContainer>
             {/* <Nav.Link eventKey={2} href="#memes">
               Dank memes

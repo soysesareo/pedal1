@@ -32,25 +32,6 @@
 
 /* Fin Componente Navegacion */
 
-/* Componente Buscador */
-.buscador {
-  background-color: #212529;
-  /* background-color: #E08149; */
-  /* background-color: #BD2F2A; */
-  padding: 3px 10px 15px 10px;
-  /* margin: 7px 0 7px 0; */
-  /* position: sticky;
-  top: 10px;
-  z-index: 100; */
-}
-
-.buscador-input {
-  max-width: 45%;
-  /* padding: 0 25px 0 25px;
-  margin: 7px 0 7px 0; */
-}
-
-/* Fin Componente Buscador */
 
 /* Componente Home */
 .grilla {
@@ -76,7 +57,53 @@
   padding-top: 1%;
 }
 
+.busquedaFiltro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #212529;
+  padding: 0 10px 1px 10px;
+}
+
+/* .busquedaFiltroMarca {
+display: flex;
+justify-content: center;
+align-items: center;
+} */
+
 /* Fin Componente Home */
+
+/* Componente Buscador */
+.buscador {
+  background-color: #212529;
+  /* background-color: #E08149; */
+  /* background-color: #BD2F2A; */
+  padding: 3px 10px 15px 10px;
+  /* margin: 7px 0 7px 0; */
+  /* position: sticky;
+  top: 10px;
+  z-index: 100; */
+}
+
+.buscador-input {
+  max-width: 90%;
+  /* padding: 0 25px 0 25px;
+  margin: 7px 0 7px 0; */
+}
+
+/* Fin Componente Buscador */
+
+
+
+
+/* Componente Filtros */
+.filtros {
+  background-color: #212529;
+  padding: 3px 10px 15px 10px;
+}
+
+/* Fin Componente Filtros */
+
 
 
 /* Componente Clientes */
@@ -264,6 +291,11 @@ height: 100px;
     gap: 10px;
     padding: 35px;
   }
+  /* .busquedaFiltro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } */
 }
 
 @media screen and (max-width: 1020px) {
@@ -366,6 +398,13 @@ height: 100px;
   /*  .nav-cart {
   display: none
   } */
+  
+  .busquedaFiltro {
+    display: flex;
+    flex-direction: column;
+  }
 }
+
+
 
 /* Fin Diseño Responsivo */

@@ -12,13 +12,15 @@ import Newsletter from './Newsletter';
 import Section from './Section';
 import Clientes from './Clientes';
 import Buscador from './Buscador';
+import Filtros from './Filtros';
+import FiltrosMarca from './FiltrosMarca';
 
 
 
 const Home = () => {
   const { pedales, setPedales, addPedal } = useProductContext();
 
-  const handleClicPedal = ({pedales}) => {
+  const handleClicPedal = ({ pedales }) => {
 
     addPedal(pedales)
   };
@@ -26,7 +28,13 @@ const Home = () => {
   return (
     <>
       {/* <Container className="container"> */}
-      <Buscador />
+      <div className='busquedaFiltro'>
+        <Buscador />
+        <div className='busquedaFiltroMarca'>
+          {/* <FiltrosMarca /> */}
+          <Filtros />
+        </div>
+      </div>
       {/* <p>Home</p> */}
       <div className='grilla'> {
         pedales.map((pedal) => (
@@ -42,8 +50,8 @@ const Home = () => {
               <Link className="boton-detalles" to={`/detalles `}>
                 <Button
                   variant="success"
-                  /* onClick={() => handleClicPedal(pedales)} */
-                  >Detalles
+                /* onClick={() => handleClicPedal(pedales)} */
+                >Detalles
                 </Button></Link>
               <Link className="boton-comprar" to={`/compras `} ><Button variant="success">Comprar</Button></Link>
             </Card.Body>
