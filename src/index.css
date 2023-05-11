@@ -284,6 +284,29 @@ height: 100px;
   }
 } */
 
+
+/* Componente Login */
+.login {
+  padding: 2% 15% 3% 15%;
+  background-color: #97A35C;
+  }
+
+.login-texto {
+  text-align: center;
+  background-color: #97A35C;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.text-muted {
+color: rgb(52, 52, 48);
+}
+
+
+/* Fin Componente Login */
+
+
+
 @media screen and (max-width: 1200px) {
   .grilla {
     display: grid;
