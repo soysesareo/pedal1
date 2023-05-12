@@ -2,6 +2,7 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Alert from 'react-bootstrap/Alert';
+import { Link } from 'react-router-dom';
 
 
 const Login = () => {
@@ -36,6 +37,7 @@ const Login = () => {
           Recuperar <a href="#">contraseña</a>
         </p> */}
         <p className="mt-3">Recuperar <Alert.Link href="#">contraseña</Alert.Link></p>
+        <p className="mt-3">Si aún no tienes tu cuenta <Alert.Link href="#"><Link to="/registro">regístrate</Link></Alert.Link></p>
       </Form>
     </div>
   )

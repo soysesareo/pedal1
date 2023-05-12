@@ -28,7 +28,7 @@ const Registro = () => {
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicPassword">
           <Form.Label>Avatar</Form.Label>
-          <Form.Control type="password" placeholder="Ingrese la url de su avatar" />
+          <Form.Control type="password" placeholder="Ingrese la url de su avatar (opcional)" />
         </Form.Group>
         {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
         <Form.Check type="checkbox" label="Check me out" />
