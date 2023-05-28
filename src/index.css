@@ -19,6 +19,7 @@
 #responsive-navbar-nav,
 .barra-navegacion-enlaces {
   text-decoration: none;
+
 }
 
 .nav-stompbox {
@@ -51,6 +52,7 @@
 
 .tarjeta-precio {
   text-align: center;
+  font-size: larger;
 }
 
 .tarjeta-titulo {
@@ -60,9 +62,9 @@
 .busquedaFiltro {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   background-color: #212529;
-  padding: 0 10px 1px 10px;
+  padding: 0 10px 0px 10px;
 }
 
 /* .busquedaFiltroMarca {
@@ -86,7 +88,7 @@ align-items: center;
 }
 
 .buscador-input {
-  max-width: 90%;
+  max-width: 100%;
   /* padding: 0 25px 0 25px;
   margin: 7px 0 7px 0; */
 }
@@ -125,13 +127,13 @@ align-items: center;
 
 /* Componente Footer */
 .footer {
-  background-color: aquamarine;
+  background-color: rgb(19, 20, 20);
   padding: 1% 0% 1% 0%;
 }
 
 .footer-texto {
   font-size: smaller;
-  color: rgb(121, 62, 2);
+  color: #ffffff;
   height: 33px;
   display: flex;
   justify-content: center;
@@ -140,7 +142,7 @@ align-items: center;
 
 .footer-sesareo {
   text-decoration: none;
-  color: rgb(121, 62, 2);
+  color: #ffffff;
   margin-left: 0.36%;
 }
 
@@ -153,7 +155,9 @@ align-items: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 15px 25px;
+  /* margin: 20px 25px; */
+  padding: 2% 15% 3% 15%;
+  background-color: #97A35C;
 }
 
 /* .not-found {
@@ -164,15 +168,25 @@ align-items: center;
 } */
 
 .not-found-texto {
-  color: red;
+  color: #A72C38;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 15px 25px;
+  /* margin: 15px 25px; */
 }
 
 /* Fin Not Found */
+
+
+/* Componente Registro */
+.registro-texto-boton {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Fin Registro */
+
 
 /* barra navegación */
 /* .barra-navegacion {
@@ -190,9 +204,24 @@ align-items: center;
   text-align: center;
 }
 
-.boton-detalles {
+/* .boton-detalles {
   margin-right: 10px;
+} */
+
+/* .boton-comprar {
+  margin-left: 10px;
+} */
+
+.botones-favoritos {
+  display: flex;
+  justify-content: space-around;
 }
+
+.corazon-favorito{
+height: 29px;
+margin-top: 2%;
+}
+
 
 /* header */
 .header {
@@ -254,7 +283,7 @@ height: 100px;
 /* Componente Section (footer) */
 .footer-section {
   background-color: bisque;
-  color: brown;
+  color: #A72C38;
   padding: 30px 25px;
   display: flex;
   justify-content: space-around;
@@ -270,6 +299,7 @@ height: 100px;
 .footer-copyright {
   height: 13px;
   margin-right: 1px;
+  
 }
 
 /* Fin Componente Section(footer) */
@@ -289,21 +319,89 @@ height: 100px;
 .login {
   padding: 2% 15% 3% 15%;
   background-color: #97A35C;
-  }
+}
 
 .login-texto {
   text-align: center;
-  background-color:  #97A35C;
+  background-color: #97A35C;
   padding-top: 2%;
   padding-bottom: 2%;
 }
 
+
 .text-muted {
-color: rgb(52, 52, 48);
+  color: rgb(52, 52, 48);
+}
+
+/* Fin Componente Login */
+
+
+
+
+
+/* Componente Logout */
+.logout {
+  padding: 2% 15% 3% 15%;
+  background-color: #97A35C;
+}
+
+.logout-texto {
+  text-align: center;
+  color: #A72C38;
+  background-color: #97A35C;
+  /* padding-top: 2%; */
+  padding-bottom: 2%;
+}
+
+.logout-boton {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 5%;
+}
+
+.text-muted {
+  color: rgb(52, 52, 48);
+}
+
+/* Fin Componente Logout */
+
+/* Componente Dashboard */
+
+.dashboard {
+  background-color: #97A35C;
+  color: #A72C38;
+  text-align: center;
+  padding: 2% 15% 3% 15%;
+}
+
+/* Fin Componente Dashboard */
+
+
+
+/* Componente Compras */
+.compras {
+  background-color: #97A35C;
+  padding: 2% 15% 3% 15%;
+  color: #A72C38;
+  text-align: center;
 }
 
 
-/* Fin Componente Login */
+.compras-titulo {
+  background-color: #97A35C;
+}
+
+.compras-tarjeta {
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  color: #A72C38
+}
+
+/* Fin Componente Compras */
 
 
 
@@ -314,6 +412,7 @@ color: rgb(52, 52, 48);
     gap: 10px;
     padding: 35px;
   }
+
   /* .busquedaFiltro {
     display: flex;
     justify-content: space-between;
@@ -415,17 +514,18 @@ color: rgb(52, 52, 48);
   .nav-cart,
   .nav-user {
     height: 29px;
-    display: none;
+    /* display: none; */
+    color: red
   }
 
   /*  .nav-cart {
   display: none
   } */
-  
-  .busquedaFiltro {
+
+  /* .busquedaFiltro {
     display: flex;
     flex-direction: column;
-  }
+  } */
 }
 
 

@@ -8,7 +8,7 @@ const Footer = () => {
 
       <div className="footer-texto">pedalmanía <img className="footer-copyright" src="/copyright-svgrepo-com.svg" /> 2023</div>
       {/* <div className="footer-texto">todos los derechos reservados</div> */}
-      <div className="footer-texto">diseño & desarrollo web por<a className="footer-sesareo" href="https://soysesareo.github.io" target="_blank"><span>soysesareo</span></a></div>
+      <div className="footer-texto">desarrollo web por <a className="footer-sesareo" href="https://soysesareo.github.io" target="_blank"><span>soysesareo</span></a></div>
 
       {/*  <p className="footer-texto"> | desarrollado por @soysesareo</p> */}
     </div>

@@ -1,16 +1,20 @@
 import React from 'react'
+import { ProductContext, useProductContext } from '../context/ProductContext';
+
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Image, NavLink } from 'react-bootstrap';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
-/* import { NavLink } from 'react-router-dom';
- */
+/* import { NavLink } from 'react-router-dom'; */
 import { LinkContainer } from 'react-router-bootstrap'
 
-
 const Navegacion = () => {
+
+  const { user } = useProductContext(ProductContext);
+
+
   return (
     <>
       <Navbar className="barra-navegacion" sticky="top" collapseOnSelect expand="md" bg="dark" variant="dark">
@@ -36,24 +40,45 @@ const Navegacion = () => {
               </NavDropdown.Item>
             </NavDropdown> */}
           </Nav>
-          
+
           <Nav className="barra-navegacion-enlaces">
             <LinkContainer to="/">
               <Nav.Link >Inicio</Nav.Link>
             </LinkContainer>
+
             {/* <Nav.Link href="#deets">Productos</Nav.Link> */}
+
             <LinkContainer to="/contacto">
               <Nav.Link >Contacto</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/compras">
-              <Nav.Link >Compras<Image className="nav-cart" src="/cart-4-svgrepo-com.svg" fluid rounded /></Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="/login">
-              <Nav.Link >Mi Perfil<Image className="nav-user" src="/user-1-svgrepo-com.svg" fluid rounded /></Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/registro">
-              <Nav.Link >Registro<Image className="nav-user" src="/user-plus-svgrepo-com.svg" fluid rounded /></Nav.Link>
-              </LinkContainer>
+
+            {
+              user ? (
+                <>
+                  <LinkContainer to="/dashboard">
+                    <Nav.Link >Mi Tablero<Image className="nav-user" fluid rounded /></Nav.Link>
+                  </LinkContainer>
+                  <LinkContainer to="/compras">
+                    <Nav.Link >Mis Compras<Image className="nav-cart" /* src="/cart-4-svgrepo-com.svg" */ fluid rounded /></Nav.Link>
+                  </LinkContainer>
+                  <LinkContainer to="/logout">
+                    <Nav.Link >Hola {user && user.name}<Image className="nav-cart" /* src="public/logout-svgrepo-com.svg" */ fluid rounded /></Nav.Link>
+                  </LinkContainer>
+                </>
+              ) : (
+                <>
+                  <LinkContainer to="/login">
+                    <Nav.Link >Mi Perfil<Image className="nav-user" /* src="/user-1-svgrepo-com.svg" */ fluid rounded /></Nav.Link>
+                  </LinkContainer>
+                  <LinkContainer to="/registro">
+                    <Nav.Link >Registro<Image className="nav-user" /* src="/user-plus-svgrepo-com.svg" */ fluid rounded /></Nav.Link>
+                  </LinkContainer>
+                </>
+
+              )
+
+            }
+
             {/* <Nav.Link eventKey={2} href="#memes">
               Dank memes
             </Nav.Link> */}

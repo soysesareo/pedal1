@@ -102,8 +102,8 @@ const Contacto = () => {
       <div className="contacto-formulario">
         <div className="container pt-3 py-3">
           {/* <h2 className="mb-3">React Contact Form Component Example</h2> */}
-          <h5 style={{ color: '#BD2F2A', textAlign: 'center' }}>Déjanos tu mensaje</h5>
-          <h6 style={{ color: '#BD2F2A', textAlign: 'center' }}>Te contactaremos a la brevedad posible</h6>
+          <h5 style={{ color: '#A72C38', textAlign: 'center' }}>Déjanos tu mensaje</h5>
+          <h6 style={{ color: '#A72C38', textAlign: 'center' }}>Te contactaremos a la brevedad posible</h6>
           <br />
           <form onSubmit={onSubmit}>
             <div className="mb-3">
@@ -124,7 +124,7 @@ const Contacto = () => {
               </label>
               <textarea className="form-control" id="message" required />
             </div>
-            <button className="btn btn-success" type="submit">
+            <button className="btn btn-secondary" type="submit">
               {formStatus}
             </button>
           </form>

@@ -9,27 +9,37 @@ const Compras = () => {
   const { compras } = useProductContext(ProductContext);
   console.log(compras);
 
-  
-  
+
+
   return (
     <div>
-      <p>Acá están tus compras</p>
-      {/* <p>Acá están tus compras</p> */}
-      <div>
-        {
-          compras.map((compra) => (
-            <div key={compra.id}>
-              <img height={"85px"} src={compra.img} alt={compra.name} />
-              <h5>{compra.brand}</h5>
-              <h5>{compra.name}</h5>
-              <div>
-                <h5>${compra.price}</h5>
+      <div className="compras">
+        <h5 className="compras-titulo">Éstas son tus compras</h5>
+        {/* <p>Acá están tus compras</p> */}
+        <div className="compras-tarjeta">
+          {
+            compras.map((compra, id) => (
+              <div key={id}>
+                <img height={"85px"} src={compra.img} alt={compra.name} />
+                <h6>Marca {compra.brand}</h6>
+                <h6>Nombre {compra.name}</h6>
+                <div>
+                  <h6>Precio {compra.price}</h6>
+                </div>
               </div>
-            </div>
-          ))
-        }
+            ))
+          }
+        </div>
+        {/*  <Link to="/"><Button>Inicio</Button></Link> */}
+        <Link className="logout-boton" to={`/Login `} >
+          <Button
+            variant="secondary"
+            value="Reload Page"
+            onClick="window.location.reload(true)"
+          >Cerrar Sesión</Button>
+        </Link>
+        <br />
       </div>
-      <Link to="/"><Button>Inicio</Button></Link>
     </div>
   )
 }

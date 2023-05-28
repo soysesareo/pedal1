@@ -52,16 +52,16 @@
     "brand": "Wampler",
     "type": "Compresor",
     "price": 89990,
-    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt autem necessitatibus voluptatum corrupti tenetur provident est, blanditiis eligendi dolores esse magnam, repellendus ipsum aperiam veritatis quidem porro nemo. Ipsam quis pariatur accusantium amet consequuntur."
+    "description": "Lorem ipsum dolor sit amet consectetur compresor, adipisicing elit. Incidunt autem necessitatibus voluptatum corrupti tenetur provident est, blanditiis eligendi dolores esse magnam, repellendus ipsum aperiam veritatis quidem porro nemo. Ipsam quis pariatur accusantium amet consequuntur."
   },
 {
     "id": "07",
     "img": "assets/img/mooer-echoverb-front-300x300-7.jpg",
     "name": "EchoVerb",
     "brand": "Mooer",
-    "type": "Delay",
+    "type": "Reverb Delay",
     "price": 59990,
-    "description": "Lorem ipsum dolor echoverb mooer sit amet consectetur, adipisicing elit. Incidunt autem necessitatibus voluptatum corrupti tenetur provident est, blanditiis eligendi dolores esse magnam, repellendus ipsum aperiam veritatis quidem porro nemo. Ipsam quis pariatur accusantium amet consequuntur."
+    "description": "El Mooer EchoVerb es un pedal de Reverb y Delay Digital de alta calidad en un formato micro, adipisicing elit. Incidunt autem necessitatibus voluptatum corrupti tenetur provident est, blanditiis eligendi dolores esse magnam, repellendus ipsum aperiam veritatis quidem porro nemo. Ipsam quis pariatur accusantium amet consequuntur."
   },
 {
     "id": "08",
@@ -97,7 +97,6 @@
     "brand": "MXR",
     "type": "Overdrive",
     "price": 99990,
-    
     "description": "Una herramienta útil para cualquier músico o instrumentista. Este overdrive MXR es ideal para aquellos que se inician en el dominio de un instrunebto de cuerdas. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt autem necessitatibus voluptatum corrupti tenetur provident est."
   },
 {
@@ -105,7 +104,7 @@
     "img": "assets/img/empress-perea-eq-300x300-12.jpg",
     "name": "Paraeq",
     "brand": "Empress",
-    "type": "EQ",
+    "type": "Equalizador",
     "price": 119990,
     "description": "Una herramienta útil para cualquier músico o instrumentista. Este equalizador Empress es ideal para aquellos que se inician en el dominio de un instrunebto de cuerdas. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt autem necessitatibus voluptatum corrupti tenetur provident est."
   }
